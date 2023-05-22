@@ -1,5 +1,5 @@
-const app = require('../app');
-const supertest = require('supertest');
+import app from '../app.js';
+import supertest from 'supertest';
 const request = supertest(app);
 
 describe('node-commonjs-to-esm test suite', () => {

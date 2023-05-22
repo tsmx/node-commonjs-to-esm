@@ -2,9 +2,11 @@
   "name": "commonjs-to-esm",
   "version": "1.0.0",
   "description": "Example showing how to migrate an existing NodeJS project from CommonJS to ESM",
-  "main": "start.js",
+  "exports": "./start.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "start": "node start.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",

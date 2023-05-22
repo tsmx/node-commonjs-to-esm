@@ -4,6 +4,7 @@
   "description": "Example showing how to migrate an existing NodeJS project from CommonJS to ESM",
   "main": "start.js",
   "scripts": {
+    "start": "node start.js",
     "test": "jest"
   },
   "repository": {
